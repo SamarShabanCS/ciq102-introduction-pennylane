@@ -105,8 +105,8 @@ exercise_prepare_with_gate = Exercise(
     expected_device={'name': 'default.qubit', 'num_wires': 1},
     expected_output=np.array([ 0.8660254+0.j , 0.       -0.5j])
 )
-exercise_prepare_with_mottonen = Exercise(
-    name="prepare with Mottonen",
+exercise_prepare_with_statePrep = Exercise(
+    name="prepare with state Prep",
     expected_device={'name': 'default.qubit', 'num_wires': 1},
     expected_output=np.array([np.sqrt(3)/2, 0.5j]),
 )
